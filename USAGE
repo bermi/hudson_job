@@ -1,0 +1,22 @@
+Description:
+    Creates a Hudson Job folder you can drag and drop to your $HUDSON_HOME
+    in order to have Continuous Integration built into your application.
+    
+    This generator uses git as SCM and supports github accounts. If you
+    would like to add support for other SCM please fork 
+    
+        http://github.com/bermi/hudson_generator
+    
+    This generator just creates the basics so you can use hudsons web 
+    interface to fine tune the default settings.
+        
+    To get quick notifications on build status I recommend 
+        - CCMenu on Mac
+        - CCTray for Windows
+        - JCCTray on others
+
+Example:
+    `./makelos generate hudson_job husdon`
+
+    Where hudson is the path you want to store your Hudson CI settings.
+    The generator will prompt for more details.
